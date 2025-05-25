@@ -1,12 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Audiencias del Poder Judicial</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+  <header>
+    <h1>Audiencias del Poder Judicial</h1>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Sobre Nosotros</a>
+      <a href="#">Audiencias</a>
+      <a href="#">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Bienvenido al sistema de gestión y publicación de audiencias del Poder Judicial en Argentina</h2>
+      <p>El Sistema de Audiencias facilita la carga y publicación de audiencias judiciales, permitiendo a ciudadanos, abogados y funcionarios judiciales consultar la información de manera ágil y segura.</p>
+    </section>
+
+    <section class="audiencias-publicas">
+  <h3>Audiencias Públicas</h3>
+  <input type="text" id="buscador-input" placeholder="Buscar por palabra clave...">
+  <button id="buscador-btn">Buscar</button>
+  <div id="audiencias-lista"></div>
+</section>
+
+
+    <section class="funcionalidades">
+      <h3>Funcionalidades principales</h3>
+      <ul>
+        <li>
+          <img src="https://img.icons8.com/ios/50/calendar--v1.png" alt="Ícono calendario">
+          <div>
+            <strong>Gestión de audiencias</strong>
+            <p>Carga, edición y gestión completa de las audiencias judiciales</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/ios/50/news.png" alt="Ícono consulta pública">
+          <div>
+            <strong>Consulta pública</strong>
+            <p>Búsqueda y visualización de audiencias públicas disponibles</p>
+          </div>
+        </li>
+        <li>
+          <img src="https://img.icons8.com/ios/50/settings--v1.png" alt="Ícono administración">
+          <div>
+            <strong>Administración del sistema</strong>
+            <p>Administración segura de usuarios y permisos del sistema</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="acceso">
+      <h3>Acceso al Sistema</h3>
+      <div class="roles">
+        <div>
+          <img src="https://img.icons8.com/ios/50/user-female.png" alt="Juez">
+          <strong>Juez</strong>
+          <p>Permite la carga y edición de audiencias</p>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/user-male.png" alt="Abogado">
+          <strong>Abogado</strong>
+          <p>Consulta de audiencias públicas</p>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/user.png" alt="Ciudadano">
+          <strong>Ciudadano</strong>
+          <p>Acceso a la información de audiencias públicas</p>
+        </div>
+        <div>
+          <img src="https://img.icons8.com/ios/50/admin-settings-male.png" alt="Administrador">
+          <strong>Administrador</strong>
+          <p>Gestión de usuarios y configuración del sistema</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#">Inicio</a>
+    <a href="#">Sobre Nosotros</a>
+    <a href="#">Audiencias</a>
+    <a href="#">Contacto</a>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
 
